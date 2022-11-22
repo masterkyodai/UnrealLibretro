@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v2
         
       # Runs setup.sh in the root of the project directory. 
-       - name: Run Setup Script
+     - name: Run Setup Script
         run: wsl ./setup.sh
 
       # Lots of copying and pasting since we build for many unreal engine versions
